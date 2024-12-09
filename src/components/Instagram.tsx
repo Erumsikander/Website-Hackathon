@@ -2,7 +2,7 @@ import React from 'react'
 
 const Instagram = () => {
   return (
-  <main className='w-[1200px] h-[450]'>
+  <main className='w-[1200px] h-[450] bg-[#dcd2d2]'>
       <div  className='bg-cover bg-center h-screen' style={{backgroundImage: "url('/images/pic-4.png')"}}>
   
   <div className='flex flex-col items-center justify-center h-full '>

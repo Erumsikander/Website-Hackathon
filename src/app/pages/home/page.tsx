@@ -5,26 +5,23 @@ import Seats1 from '@/components/Seats1'
 import Seats2 from '@/components/Seats2'
 import Seats3 from '@/components/Seats3'
 import Instagram from '@/components/Instagram'
-import Index from '../../pages/Index'
 import Footer from '@/components/Footer'
 
 
 const page = () => {
   return (
-    <div>
-       <div>
-  
+  <div>
 <Navbar />
+
 <Hero />
 < Seats1 />
 < Seats2 />
 <Seats3 />
-< Index />
 <Instagram />
 < Footer />
 
 
-</div>
+
     </div>
   )
 }

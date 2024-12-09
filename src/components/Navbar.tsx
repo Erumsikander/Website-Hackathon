@@ -3,6 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { BsPersonFillExclamation } from "react-icons/bs";
+import Link from 'next/link';
 function Navbar() {
   return (
     <header>
@@ -12,10 +13,10 @@ function Navbar() {
     
       <nav className=' bg-[#f3df9d] hidden md:flex space-x-16 items-center px-32'>
 
-        <a href="#home" className='text-slate-900 hover:text-yellow-500 font-bold'>Home</a>
-        <a href="#" className='text-slate-900 hover:text-yellow-500 font-bold'>Shop</a>
-        <a href="#" className='text-slate-900 hover:text-yellow-500 font-bold'>About</a>
-        <a href="#" className='text-slate-900 hover:text-yellow-500 font-bold'>Contact</a>
+      <Link target='blank' href="/pages/home">Home</Link>
+          <Link href="/app/shop">Shop</Link>
+          <Link href="/pages/about">About</Link>
+          <Link href="/pages/contact">Contact</Link>
 
       </nav>
  {/* Search icons*/}

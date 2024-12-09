@@ -11,7 +11,7 @@ const Seats3 = () => {
     <div>
     <h2 className=' lg:text-2xl font-bold p-2 flex justify-center'>New Arrivals</h2>
 <h1 className='lg:text-5xl font-bold flex justify-center w-[331] h-[72]'>Asgaard sofa</h1>
-<button className=' font-bold ml-24 border-2 w-[140px] h-[50px] border-black hover:bg-black hover:text-white'>
+<button className=' font-bold ml-16 border-2 w-[140px] h-[50px] border-black hover:bg-black hover:text-white'>
     Order Now
 </button>
 </div>
