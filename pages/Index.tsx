@@ -1,5 +1,5 @@
 import React from 'react'
-import BlogCard from '@/components/BlogCard';
+import Blog from '@/components/Blog';
 
 
 const Index = () => {
@@ -35,7 +35,7 @@ const Index = () => {
         </p>
         <div className=" flex flex-row-3 gap-6 ">
           {blogs.map((blog) => (
-            <BlogCard key={blog.id} {...blog} />
+            <Blog key={blog.id} {...blog} />
           ))}
         </div>
         <div className="text-center mt-8">

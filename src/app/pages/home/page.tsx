@@ -6,6 +6,7 @@ import Seats2 from '@/components/Seats2'
 import Seats3 from '@/components/Seats3'
 import Instagram from '@/components/Instagram'
 import Footer from '@/components/Footer'
+import Index from '../../../../pages/Index'
 
 
 const page = () => {
@@ -17,6 +18,7 @@ const page = () => {
 < Seats1 />
 < Seats2 />
 <Seats3 />
+< Index />
 <Instagram />
 < Footer />
 

@@ -7,17 +7,15 @@ import Link from 'next/link';
 function Navbar() {
   return (
     <header>
-
     {/* Main Navigation */}
     <div className=' w-[1200px] bg-[#f3df9d] flex justify-end items-center px-20 py-4'>
     
-      <nav className=' bg-[#f3df9d] hidden md:flex space-x-16 items-center px-32'>
+      <nav className='  bg-[#f3df9d] hidden md:flex space-x-16 items-center px-32'>
 
       <Link target='blank' href="/pages/home">Home</Link>
-          <Link href="/app/shop">Shop</Link>
-          <Link href="/pages/about">About</Link>
-          <Link href="/pages/contact">Contact</Link>
-
+          <Link target='blank' href={"/pages/shop"}>Shop</Link>
+          <Link target='blank' href="/pages/about">About</Link>
+          <Link target='blank' href="/pages/contact">Contact</Link>
       </nav>
  {/* Search icons*/}
 

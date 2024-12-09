@@ -1,15 +1,15 @@
 import React from 'react'
 
-type BlogCardProps = {
+type BlogProps = {
   image: string;   
   title: string;    
   date: string;    
-  readTime: number; 
-};
+  readTime: number;
+}
 
-
-const BlogCard : React.FC<BlogCardProps> = ( { image , title, date, readTime} ) => {
+const Blog : React.FC<BlogProps> = ( { image , title, date, readTime} ) => {
   return (
+
     <div className=" rounded-lg w-[393px] h-[393px] container mx-auto px-4 py-8 shadow-md overflow-hidden bg-white">
     <img
       src={image}
@@ -28,4 +28,6 @@ const BlogCard : React.FC<BlogCardProps> = ( { image , title, date, readTime} ) 
   )
 }
 
-export default BlogCard
+
+export default Blog
+

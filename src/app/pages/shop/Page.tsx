@@ -7,16 +7,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Page = () => {
+const page = () => {
   return (
     <div>
       <Navbar />
       <div className="w-full flex justify-center my-6">
-        <Image src="/images/shop-1.png" alt="" />
+        <Image src="/images/shop-1.png" alt="" width={1200} height={316}/>
         {/* <Image alt='' height={} width={}> */}
       </div>
       <div>
-        <Image src="/images/shop-2.png" alt="" />
+        <Image src="/images/shop-2.png" alt="" width={1200} height={100} />
       </div>
 
       <div className="flex justify-center items-center flex-wrap gap-4 my-20">
@@ -34,4 +34,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default page;
