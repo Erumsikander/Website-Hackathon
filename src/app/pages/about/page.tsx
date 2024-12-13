@@ -1,18 +1,18 @@
-'use client'
-
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
-export default function About() {
+export default function page () {
   return (
     <> 
     <Navbar/>
     <div className="flex flex-col items-center px-6 py-12 lg:px-16">
       <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">About Us</h1>
       <p className="text-lg text-gray-600 mb-8 text-center max-w-3xl">
-        Welcome to <span>Ecomerce</span>! We're passionate about bringing you the best products from around the world. Our mission is to deliver high-quality, affordable, and unique items that fit your lifestyle and make shopping an enjoyable experience.
+        Welcome to 
+        <span>
+          Ecomerce
+          </span>! We're passionate about bringing you the best products from around the world. Our mission is to deliver high-quality, affordable, and unique items that fit your lifestyle and make shopping an enjoyable experience.
       </p>
-
       <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl">
         <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <h2 className="text-2xl font-semibold text-[#1D1743] mb-4">Our Story</h2>

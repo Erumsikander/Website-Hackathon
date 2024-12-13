@@ -8,15 +8,19 @@ function Navbar() {
   return (
     <header>
     {/* Main Navigation */}
+
     <div className=' w-[1200px] bg-[#f3df9d] flex justify-end items-center px-20 py-4'>
     
       <nav className='  bg-[#f3df9d] hidden md:flex space-x-16 items-center px-32'>
 
       <Link target='blank' href="/pages/home">Home</Link>
-          <Link target='blank' href={"/pages/shop"}>Shop</Link>
+          <Link target='blank' href="/pages/shop">Shop</Link>
           <Link target='blank' href="/pages/about">About</Link>
           <Link target='blank' href="/pages/contact">Contact</Link>
+
       </nav>
+
+      
  {/* Search icons*/}
 
  <div 
@@ -25,6 +29,7 @@ function Navbar() {
   <div>
     <CiSearch className=' black size-6'/>
   </div>
+
   <CiHeart className='size-6'/>
   <IoCartOutline className=' size-6'/>
 

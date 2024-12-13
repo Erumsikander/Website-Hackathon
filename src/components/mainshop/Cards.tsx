@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+
 interface CardsProps {
   imageUrl: string;
   title: string;

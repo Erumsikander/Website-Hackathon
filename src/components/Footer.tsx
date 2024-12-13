@@ -15,17 +15,28 @@ const Footer = () => {
                </div>
                <div className=" w-[48px] h-[px24]  text-2 ">
                 <ul>
-                  <li className="pt-1 cursor-pointer text-2xl text-[#6e6969]">Links</li>
-                  <li className="pt-1 cursor-pointer">Home</li>
-                  <li className="pt-1 cursor-pointer">Shop</li>
-                  <li className="pt-1 cursor-pointer">About</li>
-                  <li className="pt-1 cursor-pointer">Contact</li>
+                  <li
+                 className="pt-1 cursor-pointer text-2xl text-[#6e6969]">Links</li>
+                  <li>
+                    <a className="pt-1 cursor-pointer hover:bg-red-300" target='blank' href="/pages/home">Home</a>
+                  </li>
+                  <li>
+                  <a className="pt-1 cursor-pointer hover:bg-red-300" target='blank' href="/pages/shop">Shop</a>
+                    </li>
+                  <li>
+                  <a className="pt-1 cursor-pointer hover:bg-red-300" target='blank' href="/pages/about">About</a>
+                       </li>
+                  <li>
+                                      <a className="pt-1 cursor-pointer hover:bg-red-300" target='blank' href="/pages/contact">Contact</a>
+                  </li>
                 </ul>
                </div>
                <div className=" w-[48px] h-[px24]  text-2 ">
                 <h1 className="pt-1 cursor-pointer text-2xl text-[#6e6969]">Help</h1>
                 <ul>
-                  <li className="pt-1 cursor-pointer">Payment Options</li>
+                  <li>
+                  <a className="pt-1 cursor-pointer hover:bg-red-300" target='blank' href="/pages/checkout">Payment</a>
+                  </li>
                   <li className="pt-1 cursor-pointer">Returns</li>
                   <li className="pt-1 cursor-pointer">Privacy Policies</li>
                 </ul>

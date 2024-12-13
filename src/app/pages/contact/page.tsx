@@ -8,6 +8,9 @@ import React from "react";
 
 const page = () => {
   return (
+
+    // Import Navbar Page Here   //
+
   <div>
     <Navbar/>
     <div>
@@ -15,7 +18,9 @@ const page = () => {
       </div>
     <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12 px-6">
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12">
-        {/* Left Section: Contact Details */}
+
+        {/* Contacts */}
+
         <div className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h2>
           <p className="text-gray-600 mb-4">
@@ -24,7 +29,7 @@ const page = () => {
           <div className="space-y-4">
             <div>
               <h3 className="text-lg font-semibold text-gray-700">Address</h3>
-              <p className="text-gray-600">123 Main Street, Karachi, Pakistan</p>
+              <p className="text-gray-600">123 Street, Hyderabad, Pakistan</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-700">Phone</h3>
@@ -37,14 +42,17 @@ const page = () => {
           </div>
         </div>
 
-        {/* Right Section: Contact Form */}
+        {/* Contact Form */}
+
         <div className="bg-white p-8 rounded-lg shadow-md">
           <form className="space-y-6">
             <div>
               <label
                 htmlFor="name"
-                className="block text-gray-700 font-medium mb-2"
-              >
+                className="block text-gray-700 font-medium mb-2">
+
+                {/* Detail Of Clients */}
+
                 Name
               </label>
               <input
@@ -119,8 +127,15 @@ const page = () => {
       </div>
     </div>
     <div className="mb-8">
+
+{/* //  Import Textdata Page Here    // */}
+
     <Textdata />
+
     </div>
+
+{/* //  Import Footer Page Here    // */}
+
     <Footer/>
   </div>
   );

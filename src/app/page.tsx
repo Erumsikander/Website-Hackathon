@@ -5,7 +5,7 @@ import Seats1 from '@/components/Seats1'
 import Seats2 from '@/components/Seats2'
 import Seats3 from '@/components/Seats3'
 import Instagram from '@/components/Instagram'
-import Index from '../../pages/Index'
+import Blogs from '@/components/Blogs'
 import Footer from '@/components/Footer'
 
 
@@ -19,11 +19,9 @@ const page = () => {
 < Seats1 />
 < Seats2 />
 <Seats3 />
-< Index />
+< Blogs />
 <Instagram />
 < Footer />
-
-
 </div>
     </div>
   )

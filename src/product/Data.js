@@ -1,11 +1,17 @@
 const Data = [
-    {
+
+      // Decription of Product 1..toExponential.!  
+  
+  {
       id: 1,
       imageUrl: "/images/shop-3.png",
       title: " Tentron modular sofa_3",
       price: "Rs. 25,000.00",
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
     },
+
+     // Decription of Product 2..toExponential.! 
+
     {
       id: 2,
       imageUrl: "/images/shop-4.png",
@@ -15,6 +21,8 @@ const Data = [
   
     },
   
+ // Decription of Product 3..toExponential.! 
+
     {
       id: 3,
       imageUrl: "/images/shop-5.png",
@@ -23,6 +31,9 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+ // Decription of Product 4..toExponential.! 
+
     {
       id: 4,
       imageUrl: "/images/shop-6.png",
@@ -32,6 +43,8 @@ const Data = [
   
     },
   
+ // Decription of Product 5..toExponential.! 
+
     {
       id: 5,
   
@@ -41,6 +54,9 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+ // Decription of Product 6..toExponential.! 
+
     {
       id: 6,
   
@@ -50,6 +66,8 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+     // Decription of Product 7..toExponential.! 
   
     {
       id: 7,
@@ -60,6 +78,9 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+ // Decription of Product 8..toExponential.! 
+
     {
       id: 8,
   
@@ -69,6 +90,9 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+ // Decription of Product 9..toExponential.! 
+
     {
       id: 9,
   
@@ -78,6 +102,9 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+ // Decription of Product 10..toExponential.! 
+
     {
       id: 10,
   
@@ -88,6 +115,8 @@ const Data = [
   
     },
   
+ // Decription of Product 11..toExponential.! 
+
     {
       id: 11,
   
@@ -97,6 +126,9 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+ // Decription of Product 12..toExponential.! 
+
     {
       id: 12,
   
@@ -106,6 +138,9 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+ // Decription of Product 13..toExponential.! 
+
     {
       id: 13,
   
@@ -115,6 +150,9 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+ // Decription of Product 14..toExponential.! 
+
     {
       id: 14,
   
@@ -124,6 +162,8 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+     // Decription of Product 15..toExponential.! 
   
     {
       id: 15,
@@ -134,6 +174,10 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+ // Decription of Product 16..toExponential.! 
+
+
     {
       id: 16,
   
@@ -143,6 +187,8 @@ const Data = [
       description: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound",
   
     },
+
+    
   ];
   
   export default Data;
